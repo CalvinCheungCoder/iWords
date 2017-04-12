@@ -1,0 +1,23 @@
+//
+//  MyPrefixHeader.pch
+//  App
+//
+//  Created by 张丁豪 on 16/9/7.
+//  Copyright © 2016年 张丁豪. All rights reserved.
+//
+
+#ifndef MyPrefixHeader_pch
+#define MyPrefixHeader_pch
+
+#import "MyHelper.h"
+#import "Factory.h"
+#import "UIView+Addition.h"
+#import "BaseViewController.h"
+#import "UILabel+LabelHeightAndWidth.h"
+
+#import "CustomNavigationController.h"
+
+// 工具类
+#import "Tools.h"
+
+#endif /* MyPrefixHeader_pch */
