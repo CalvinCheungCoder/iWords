@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"帮助中心";
+    self.title = DHLocalizedString(@"使用帮助");
 }
 
 - (void)didReceiveMemoryWarning {

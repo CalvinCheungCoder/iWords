@@ -20,8 +20,8 @@
         UILabel *titleLabel = [[UILabel alloc]init];
         titleLabel.textAlignment = NSTextAlignmentLeft;
         titleLabel.font = [UIFont systemFontOfSize:15];
-        titleLabel.textColor = RGB(74, 74, 74);
-        titleLabel.numberOfLines = 2;
+        titleLabel.textColor = [UIColor blackColor];
+        titleLabel.numberOfLines = 1;
         [self.contentView addSubview:titleLabel];
         self.titleLabel = titleLabel;
         

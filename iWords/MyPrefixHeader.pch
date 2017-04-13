@@ -18,8 +18,11 @@
 
 #import "CustomNavigationController.h"
 
+#import "UIView+Toast.h"
+
 // 工具类
 #import "Tools.h"
 #import "DHLanguageTool.h"
+
 
 #endif /* MyPrefixHeader_pch */

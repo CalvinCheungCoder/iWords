@@ -7,8 +7,18 @@
 #ifndef UIControlDemo_MyHelper_h
 #define UIControlDemo_MyHelper_h
 
+#define kWindow [UIApplication sharedApplication].keyWindow
+
+// 第三方框架 Toast
+#define setToast(str) CSToastStyle *style = [[CSToastStyle alloc] initWithDefaultStyle];                            \
+[kWindow  makeToast:str duration:0.8 position:CSToastPositionCenter style:style];                               \
+kWindow.userInteractionEnabled = NO;                                                                            \
+dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.8 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{   \
+kWindow.userInteractionEnabled = YES;                                                                       \
+});
+
 // 提示框
-#define setToast(str) [WSProgressHUD showImage:nil status:str];
+//#define setToast(str) [WSProgressHUD showImage:nil status:str];
 
 #define Default 44
 

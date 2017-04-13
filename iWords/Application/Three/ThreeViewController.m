@@ -14,6 +14,7 @@
 #import "LanSwitchViewController.h"
 #import "JoinGroupViewController.h"
 #import "MainTabBar.h"
+#import "AboutMeViewController.h"
 
 @interface ThreeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -46,13 +47,15 @@
 #pragma mark -- TableViewDele & DataSource
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
     
-    return 2;
+    return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     if (section == 0) {
         return 4;
+    }else if (section == 2){
+        return 1;
     }else{
         return 3;
     }
@@ -81,6 +84,24 @@
         cell.Img.image = [UIImage imageNamed:imgArr[indexPath.row]];
         
         return cell;
+        
+    }else if (indexPath.section == 2){
+        
+        static NSString *homeTwoCell = @"HomeThreeCell";
+        CenterCell *cell = [tableView dequeueReusableCellWithIdentifier:homeTwoCell];
+        if (!cell) {
+            cell = [[CenterCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:homeTwoCell];
+        }
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        
+        NSArray *arr = @[DHLocalizedString(@"关于我")];
+        NSArray *imgArr = @[@"center_8"];
+        cell.titleLabel.text = arr[indexPath.row];
+        cell.Img.image = [UIImage imageNamed:imgArr[indexPath.row]];
+        
+        return cell;
+        
         
     }else{
         static NSString *homeTwoCell = @"HomeThreeCell";
@@ -132,6 +153,16 @@
             [self.navigationController pushViewController:user animated:YES];
         }
         
+    }else if (indexPath.section == 2){
+        
+        if (indexPath.row == 0) {
+            
+            // 关于我
+            AboutMeViewController *about = [[AboutMeViewController alloc]init];
+            about.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:about animated:YES];
+        }
+        
     }else{
         
         if (indexPath.row == 0) {
@@ -179,7 +210,7 @@
 // section底部间距
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
 {
-    if (section == 1) {
+    if (section == 2) {
         return 10;
     }else{
         return 5;
@@ -189,7 +220,7 @@
 - (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section
 {
     
-    if (section == 1) {
+    if (section == 2) {
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 10)];
         view.backgroundColor = [UIColor clearColor];
         return view;

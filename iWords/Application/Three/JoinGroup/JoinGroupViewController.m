@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.title = @"加入群组";
+    self.title = DHLocalizedString(@"加入群组");
 }
 
 - (void)didReceiveMemoryWarning {

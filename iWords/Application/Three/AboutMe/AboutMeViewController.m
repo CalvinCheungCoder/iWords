@@ -1,23 +1,23 @@
 //
-//  UserAgreementViewController.m
+//  AboutMeViewController.m
 //  iWords
 //
-//  Created by 张丁豪 on 2017/4/12.
+//  Created by 张丁豪 on 2017/4/13.
 //  Copyright © 2017年 zhangdinghao. All rights reserved.
 //
 
-#import "UserAgreementViewController.h"
+#import "AboutMeViewController.h"
 
-@interface UserAgreementViewController ()
+@interface AboutMeViewController ()
 
 @end
 
-@implementation UserAgreementViewController
+@implementation AboutMeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = DHLocalizedString(@"用户协议");
+    self.title = DHLocalizedString(@"关于我");
     [self getData];
 }
 
@@ -28,19 +28,12 @@
     webView.opaque = NO;
     NSString *path = [[NSBundle mainBundle] bundlePath];
     NSURL *baseURL = [NSURL fileURLWithPath:path];
-    NSString *htmlPath = [[NSBundle mainBundle] pathForResource:@"service_terms_chs.html" ofType:nil];
+    NSString *htmlPath = [[NSBundle mainBundle] pathForResource:@"aboutMe.html" ofType:nil];
     NSString *htmlCont = [NSString stringWithContentsOfFile:htmlPath
                                                    encoding:NSUTF8StringEncoding
                                                       error:nil];
     [webView loadHTMLString:htmlCont baseURL:baseURL];
     [self.view addSubview:webView];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-
 
 @end

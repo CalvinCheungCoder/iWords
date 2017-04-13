@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2AF47F1E9F983800EE6C72 /* aboutMe.html in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AF47E1E9F983800EE6C72 /* aboutMe.html */; };
+		3E2AF4831E9F986E00EE6C72 /* AboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E2AF4821E9F986E00EE6C72 /* AboutMeViewController.m */; };
+		3E2AF4891E9F9A7800EE6C72 /* center_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AF4881E9F9A7800EE6C72 /* center_8.png */; };
+		3E2AF4901E9FA46100EE6C72 /* share_wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AF48E1E9FA46100EE6C72 /* share_wechat.png */; };
+		3E2AF4911E9FA46100EE6C72 /* share_wechatLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AF48F1E9FA46100EE6C72 /* share_wechatLine.png */; };
+		3E2AF49C1E9FAB0C00EE6C72 /* add_word.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AF49B1E9FAB0C00EE6C72 /* add_word.png */; };
 		3E772F0E1E9E22E900E52329 /* CenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E772F0D1E9E22E900E52329 /* CenterCell.m */; };
 		3E772F171E9E2D4800E52329 /* center_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F101E9E2D4800E52329 /* center_1.png */; };
 		3E772F191E9E2D4800E52329 /* center_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F121E9E2D4800E52329 /* center_3.png */; };
@@ -56,6 +62,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E2AF47E1E9F983800EE6C72 /* aboutMe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = aboutMe.html; sourceTree = "<group>"; };
+		3E2AF4811E9F986E00EE6C72 /* AboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMeViewController.h; sourceTree = "<group>"; };
+		3E2AF4821E9F986E00EE6C72 /* AboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMeViewController.m; sourceTree = "<group>"; };
+		3E2AF4881E9F9A7800EE6C72 /* center_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center_8.png; sourceTree = "<group>"; };
+		3E2AF48E1E9FA46100EE6C72 /* share_wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_wechat.png; sourceTree = "<group>"; };
+		3E2AF48F1E9FA46100EE6C72 /* share_wechatLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_wechatLine.png; sourceTree = "<group>"; };
+		3E2AF49B1E9FAB0C00EE6C72 /* add_word.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_word.png; sourceTree = "<group>"; };
 		3E772F0C1E9E22E900E52329 /* CenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterCell.h; sourceTree = "<group>"; };
 		3E772F0D1E9E22E900E52329 /* CenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterCell.m; sourceTree = "<group>"; };
 		3E772F101E9E2D4800E52329 /* center_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center_1.png; sourceTree = "<group>"; };
@@ -160,6 +173,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3E2AF4801E9F985E00EE6C72 /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				3E2AF4811E9F986E00EE6C72 /* AboutMeViewController.h */,
+				3E2AF4821E9F986E00EE6C72 /* AboutMeViewController.m */,
+			);
+			path = AboutMe;
+			sourceTree = "<group>";
+		};
+		3E2AF4921E9FA6B100EE6C72 /* word */ = {
+			isa = PBXGroup;
+			children = (
+				3E2AF49B1E9FAB0C00EE6C72 /* add_word.png */,
+			);
+			path = word;
+			sourceTree = "<group>";
+		};
 		3E772EEB1E9E08D200E52329 /* tabbar */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +206,8 @@
 		3E772F0F1E9E2D3F00E52329 /* center */ = {
 			isa = PBXGroup;
 			children = (
+				3E2AF48E1E9FA46100EE6C72 /* share_wechat.png */,
+				3E2AF48F1E9FA46100EE6C72 /* share_wechatLine.png */,
 				3EE55C091E9F2E2600CD2599 /* centercheck.png */,
 				3E772F101E9E2D4800E52329 /* center_1.png */,
 				3E772F1E1E9E2E3800E52329 /* center_2.png */,
@@ -184,6 +216,7 @@
 				3E772F141E9E2D4800E52329 /* center_5.png */,
 				3E772F151E9E2D4800E52329 /* center_6.png */,
 				3E772F161E9E2D4800E52329 /* center_7.png */,
+				3E2AF4881E9F9A7800EE6C72 /* center_8.png */,
 			);
 			path = center;
 			sourceTree = "<group>";
@@ -327,8 +360,10 @@
 		3ECCCB931E9DC77D00347C6D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3E2AF47E1E9F983800EE6C72 /* aboutMe.html */,
 				3E772F361E9E327200E52329 /* service_terms_chs.html */,
 				3E772F341E9E326C00E52329 /* whiteBack@2x.png */,
+				3E2AF4921E9FA6B100EE6C72 /* word */,
 				3E772F0F1E9E2D3F00E52329 /* center */,
 				3E772EEB1E9E08D200E52329 /* tabbar */,
 			);
@@ -372,6 +407,7 @@
 		3ECCCBB11E9DC9B300347C6D /* Three */ = {
 			isa = PBXGroup;
 			children = (
+				3E2AF4801E9F985E00EE6C72 /* AboutMe */,
 				3E772F241E9E30E100E52329 /* HelpCenter */,
 				3E772F251E9E30E100E52329 /* JoinGroup */,
 				3E772F261E9E30E100E52329 /* LanguageSwitch */,
@@ -503,9 +539,12 @@
 				3E772F1F1E9E2E3800E52329 /* center_2.png in Resources */,
 				3E772F1D1E9E2D4800E52329 /* center_7.png in Resources */,
 				3ECCCB881E9DC69200347C6D /* LaunchScreen.storyboard in Resources */,
+				3E2AF4911E9FA46100EE6C72 /* share_wechatLine.png in Resources */,
 				3E772F1B1E9E2D4800E52329 /* center_5.png in Resources */,
 				3E772F431E9E363800E52329 /* searchSele@2x.png in Resources */,
 				3E772F1A1E9E2D4800E52329 /* center_4.png in Resources */,
+				3E2AF49C1E9FAB0C00EE6C72 /* add_word.png in Resources */,
+				3E2AF4901E9FA46100EE6C72 /* share_wechat.png in Resources */,
 				3EE55BF31E9F0C8B00CD2599 /* InfoPlist.strings in Resources */,
 				3EE55C0A1E9F2E2600CD2599 /* centercheck.png in Resources */,
 				3E772F371E9E327200E52329 /* service_terms_chs.html in Resources */,
@@ -513,7 +552,9 @@
 				3ECCCB851E9DC69200347C6D /* Assets.xcassets in Resources */,
 				3E772F3E1E9E363800E52329 /* my@2x.png in Resources */,
 				3E772F191E9E2D4800E52329 /* center_3.png in Resources */,
+				3E2AF47F1E9F983800EE6C72 /* aboutMe.html in Resources */,
 				3E772F3F1E9E363800E52329 /* mySele@2x.png in Resources */,
+				3E2AF4891E9F9A7800EE6C72 /* center_8.png in Resources */,
 				3E772F1C1E9E2D4800E52329 /* center_6.png in Resources */,
 				3E772F351E9E326C00E52329 /* whiteBack@2x.png in Resources */,
 				3E772F401E9E363800E52329 /* record@2x.png in Resources */,
@@ -588,6 +629,7 @@
 				3E772F231E9E2FD100E52329 /* InviteViewController.m in Sources */,
 				3ECCCB991E9DC7EF00347C6D /* GuideViewController.m in Sources */,
 				3ECCCBBE1E9DC9D100347C6D /* TwoViewController.m in Sources */,
+				3E2AF4831E9F986E00EE6C72 /* AboutMeViewController.m in Sources */,
 				3E772F2A1E9E30EB00E52329 /* HelpCenterViewController.m in Sources */,
 				3ECCCB7D1E9DC69200347C6D /* AppDelegate.m in Sources */,
 				3E772F0E1E9E22E900E52329 /* CenterCell.m in Sources */,
