@@ -9,6 +9,7 @@
 #ifndef MyPrefixHeader_pch
 #define MyPrefixHeader_pch
 
+#import "WSProgressHUD.h"
 #import "MyHelper.h"
 #import "Factory.h"
 #import "UIView+Addition.h"
@@ -19,5 +20,6 @@
 
 // 工具类
 #import "Tools.h"
+#import "DHLanguageTool.h"
 
 #endif /* MyPrefixHeader_pch */

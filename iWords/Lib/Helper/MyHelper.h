@@ -7,6 +7,9 @@
 #ifndef UIControlDemo_MyHelper_h
 #define UIControlDemo_MyHelper_h
 
+// 提示框
+#define setToast(str) [WSProgressHUD showImage:nil status:str];
+
 #define Default 44
 
 #define LeftDistance 10

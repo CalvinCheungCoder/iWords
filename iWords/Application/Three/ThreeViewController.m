@@ -13,6 +13,7 @@
 #import "UserAgreementViewController.h"
 #import "LanSwitchViewController.h"
 #import "JoinGroupViewController.h"
+#import "MainTabBar.h"
 
 @interface ThreeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -25,9 +26,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"个人中心";
+    self.title = DHLocalizedString(@"个人中心");
     
     [self createTableView];
+    
+    [Tools logUserdefault];
 }
 
 - (void)createTableView{
@@ -72,7 +75,7 @@
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         
-        NSArray *arr = @[@"邀请好友",@"给我好评",@"使用帮助",@"用户协议"];
+        NSArray *arr = @[DHLocalizedString(@"邀请好友"),DHLocalizedString(@"给我好评"),DHLocalizedString(@"使用帮助"),DHLocalizedString(@"用户协议")];
         NSArray *imgArr = @[@"center_1",@"center_2",@"center_3",@"center_4"];
         cell.titleLabel.text = arr[indexPath.row];
         cell.Img.image = [UIImage imageNamed:imgArr[indexPath.row]];
@@ -88,7 +91,7 @@
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
         
-        NSArray *arr = @[@"语言切换",@"意见反馈",@"加入群组"];
+        NSArray *arr = @[DHLocalizedString(@"语言切换"),DHLocalizedString(@"意见反馈"),DHLocalizedString(@"加入群组")];
         NSArray *imgArr = @[@"center_5",@"center_6",@"center_7"];
         cell.titleLabel.text = arr[indexPath.row];
         cell.Img.image = [UIImage imageNamed:imgArr[indexPath.row]];
@@ -113,7 +116,6 @@
         }else if (indexPath.row == 1) {
             
             // 给我好评
-           
             
         }else if (indexPath.row == 2) {
             

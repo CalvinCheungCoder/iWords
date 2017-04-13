@@ -47,6 +47,11 @@
 		3ECCCBC51E9DCA7D00347C6D /* UIViewController+CustomNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCCBC31E9DCA7D00347C6D /* UIViewController+CustomNavigationExtension.m */; };
 		3ECCCBC91E9DCBD800347C6D /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCCBC81E9DCBD800347C6D /* Tools.m */; };
 		3ECCCBCD1E9DCDCE00347C6D /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCCBCC1E9DCDCE00347C6D /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3EE55BF31E9F0C8B00CD2599 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EE55BF51E9F0C8B00CD2599 /* InfoPlist.strings */; };
+		3EE55BFA1E9F17FF00CD2599 /* DHLanguageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE55BF91E9F17FF00CD2599 /* DHLanguageTool.m */; };
+		3EE55C041E9F1BA500CD2599 /* DHLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EE55C061E9F1BA500CD2599 /* DHLocalizable.strings */; };
+		3EE55C0A1E9F2E2600CD2599 /* centercheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EE55C091E9F2E2600CD2599 /* centercheck.png */; };
+		3EE55C0D1E9F2E3A00CD2599 /* LanSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE55C0C1E9F2E3A00CD2599 /* LanSwitchCell.m */; };
 		7A35F36D9EC667F43ECA9217 /* libPods-iWords.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F5792CAD40449466BFF04C /* libPods-iWords.a */; };
 /* End PBXBuildFile section */
 
@@ -117,6 +122,19 @@
 		3ECCCBC81E9DCBD800347C6D /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 		3ECCCBCB1E9DCDCE00347C6D /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
 		3ECCCBCC1E9DCDCE00347C6D /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		3EE55BEF1E9F0BDD00CD2599 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3EE55BF01E9F0BF200CD2599 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3EE55BF41E9F0C8B00CD2599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3EE55BF61E9F0CA800CD2599 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3EE55BF71E9F0CA900CD2599 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		3EE55BF81E9F17FF00CD2599 /* DHLanguageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLanguageTool.h; sourceTree = "<group>"; };
+		3EE55BF91E9F17FF00CD2599 /* DHLanguageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLanguageTool.m; sourceTree = "<group>"; };
+		3EE55C051E9F1BA500CD2599 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DHLocalizable.strings; sourceTree = "<group>"; };
+		3EE55C071E9F1BA800CD2599 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DHLocalizable.strings"; sourceTree = "<group>"; };
+		3EE55C081E9F1BA900CD2599 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DHLocalizable.strings"; sourceTree = "<group>"; };
+		3EE55C091E9F2E2600CD2599 /* centercheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centercheck.png; sourceTree = "<group>"; };
+		3EE55C0B1E9F2E3A00CD2599 /* LanSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanSwitchCell.h; sourceTree = "<group>"; };
+		3EE55C0C1E9F2E3A00CD2599 /* LanSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanSwitchCell.m; sourceTree = "<group>"; };
 		5BCE371A39473BA854C8B6E8 /* Pods-iWords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWords.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iWords/Pods-iWords.debug.xcconfig"; sourceTree = "<group>"; };
 		A0F5792CAD40449466BFF04C /* libPods-iWords.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iWords.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A777AA7588A4BE77EFF8E4D8 /* Pods-iWords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iWords.release.xcconfig"; path = "Pods/Target Support Files/Pods-iWords/Pods-iWords.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +176,7 @@
 		3E772F0F1E9E2D3F00E52329 /* center */ = {
 			isa = PBXGroup;
 			children = (
+				3EE55C091E9F2E2600CD2599 /* centercheck.png */,
 				3E772F101E9E2D4800E52329 /* center_1.png */,
 				3E772F1E1E9E2E3800E52329 /* center_2.png */,
 				3E772F121E9E2D4800E52329 /* center_3.png */,
@@ -201,6 +220,8 @@
 			children = (
 				3E772F2E1E9E310200E52329 /* LanSwitchViewController.h */,
 				3E772F2F1E9E310200E52329 /* LanSwitchViewController.m */,
+				3EE55C0B1E9F2E3A00CD2599 /* LanSwitchCell.h */,
+				3EE55C0C1E9F2E3A00CD2599 /* LanSwitchCell.m */,
 			);
 			path = LanguageSwitch;
 			sourceTree = "<group>";
@@ -246,6 +267,8 @@
 				3ECCCB841E9DC69200347C6D /* Assets.xcassets */,
 				3ECCCB861E9DC69200347C6D /* LaunchScreen.storyboard */,
 				3ECCCB891E9DC69200347C6D /* Info.plist */,
+				3EE55C061E9F1BA500CD2599 /* DHLocalizable.strings */,
+				3EE55BF51E9F0C8B00CD2599 /* InfoPlist.strings */,
 				3ECCCB781E9DC69200347C6D /* Supporting Files */,
 			);
 			path = iWords;
@@ -387,6 +410,8 @@
 			children = (
 				3ECCCBC71E9DCBD800347C6D /* Tools.h */,
 				3ECCCBC81E9DCBD800347C6D /* Tools.m */,
+				3EE55BF81E9F17FF00CD2599 /* DHLanguageTool.h */,
+				3EE55BF91E9F17FF00CD2599 /* DHLanguageTool.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -455,6 +480,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 3ECCCB6C1E9DC69200347C6D;
 			productRefGroup = 3ECCCB761E9DC69200347C6D /* Products */;
@@ -471,6 +498,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE55C041E9F1BA500CD2599 /* DHLocalizable.strings in Resources */,
 				3E772F421E9E363800E52329 /* search@2x.png in Resources */,
 				3E772F1F1E9E2E3800E52329 /* center_2.png in Resources */,
 				3E772F1D1E9E2D4800E52329 /* center_7.png in Resources */,
@@ -478,6 +506,8 @@
 				3E772F1B1E9E2D4800E52329 /* center_5.png in Resources */,
 				3E772F431E9E363800E52329 /* searchSele@2x.png in Resources */,
 				3E772F1A1E9E2D4800E52329 /* center_4.png in Resources */,
+				3EE55BF31E9F0C8B00CD2599 /* InfoPlist.strings in Resources */,
+				3EE55C0A1E9F2E2600CD2599 /* centercheck.png in Resources */,
 				3E772F371E9E327200E52329 /* service_terms_chs.html in Resources */,
 				3E772F171E9E2D4800E52329 /* center_1.png in Resources */,
 				3ECCCB851E9DC69200347C6D /* Assets.xcassets in Resources */,
@@ -563,11 +593,13 @@
 				3E772F0E1E9E22E900E52329 /* CenterCell.m in Sources */,
 				3ECCCBC91E9DCBD800347C6D /* Tools.m in Sources */,
 				3E772F331E9E311500E52329 /* UserAgreementViewController.m in Sources */,
+				3EE55BFA1E9F17FF00CD2599 /* DHLanguageTool.m in Sources */,
 				3ECCCBAC1E9DC86900347C6D /* UILabel+LabelHeightAndWidth.m in Sources */,
 				3ECCCBAB1E9DC86900347C6D /* UIColor+FlatColors.m in Sources */,
 				3ECCCBCD1E9DCDCE00347C6D /* SFHFKeychainUtils.m in Sources */,
 				3ECCCB7A1E9DC69200347C6D /* main.m in Sources */,
 				3ECCCBB51E9DC9BE00347C6D /* FourViewController.m in Sources */,
+				3EE55C0D1E9F2E3A00CD2599 /* LanSwitchCell.m in Sources */,
 				3ECCCBA91E9DC86900347C6D /* Factory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,8 +611,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				3ECCCB871E9DC69200347C6D /* Base */,
+				3EE55BEF1E9F0BDD00CD2599 /* zh-Hans */,
+				3EE55BF01E9F0BF200CD2599 /* zh-Hant */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3EE55BF51E9F0C8B00CD2599 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE55BF41E9F0C8B00CD2599 /* en */,
+				3EE55BF61E9F0CA800CD2599 /* zh-Hans */,
+				3EE55BF71E9F0CA900CD2599 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3EE55C061E9F1BA500CD2599 /* DHLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE55C051E9F1BA500CD2599 /* en */,
+				3EE55C071E9F1BA800CD2599 /* zh-Hans */,
+				3EE55C081E9F1BA900CD2599 /* zh-Hant */,
+			);
+			name = DHLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -590,6 +644,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -638,6 +693,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

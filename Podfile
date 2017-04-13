@@ -8,7 +8,7 @@ target ‘iWords’ do
   # Pods for iWords
 
 pod 'Toast', '~> 3.0'        #吐司
-pod 'SVProgressHUD'          #弹框
+pod 'WSProgressHUD'          #弹框
 pod 'SDWebImage', '~>3.7'    #图片加载
 pod ‘AFNetworking’
 

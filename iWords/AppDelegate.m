@@ -24,7 +24,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    
+    // 初始化语言
+    [DHLanguageTool initUserLanguage];
     
 //    [self chooseRootViewController];
     

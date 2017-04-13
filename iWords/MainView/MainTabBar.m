@@ -58,7 +58,7 @@
 #pragma mark -- 设置所有的、分栏元素项
 - (void)setTabBarItems{
     
-    NSArray *titleArr = @[@"查单词",@"记单词",@"我"];
+    NSArray *titleArr = @[DHLocalizedString(@"查单词"),DHLocalizedString(@"记单词"),DHLocalizedString(@"我")];
     NSArray *normalImgArr = @[@"search",@"record",@"my"];
     NSArray *selectedImgArr = @[@"searchSele",@"recordSele",@"mySele"];
     

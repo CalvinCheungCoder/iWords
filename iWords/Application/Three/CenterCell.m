@@ -19,7 +19,7 @@
         
         UILabel *titleLabel = [[UILabel alloc]init];
         titleLabel.textAlignment = NSTextAlignmentLeft;
-        titleLabel.font = [UIFont systemFontOfSize:16];
+        titleLabel.font = [UIFont systemFontOfSize:15];
         titleLabel.textColor = RGB(74, 74, 74);
         titleLabel.numberOfLines = 2;
         [self.contentView addSubview:titleLabel];
@@ -37,7 +37,7 @@
         self.Img = zdImg;
         
         UIView *lineView = [[UIView alloc]init];
-        lineView.backgroundColor = RGB(241, 241, 241);
+        lineView.backgroundColor = RGB(236, 236, 236);
         [self.contentView addSubview:lineView];
         self.linView = lineView;
     }
@@ -48,10 +48,10 @@
     
     [super layoutSubviews];
     
-    self.Img.frame = CGRectMake(10, 12.5, 25, 25);
+    self.Img.frame = CGRectMake(10, 15, 20, 20);
     self.titleLabel.frame = CGRectMake(40, 0, self.width-145, self.height);
     self.detailLabel.frame = CGRectMake(self.width-100, 0, 90, self.height);
-    self.linView.frame = CGRectMake(0, self.height-1, ScreenWidth, 1);
+    self.linView.frame = CGRectMake(0, self.height-0.8, ScreenWidth, 0.8);
 }
 
 @end
