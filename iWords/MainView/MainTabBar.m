@@ -70,7 +70,7 @@
     }
     
     // TabbarItem选中时字体颜色
-    [[UITabBarItem appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName:RGB(67, 188, 252)} forState:UIControlStateSelected];
+    [[UITabBarItem appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName:RGB(39, 152, 227)} forState:UIControlStateSelected];
     
     // 消除Tabbar黑线
     [[UITabBar appearance] setShadowImage:[[UIImage alloc]init]];

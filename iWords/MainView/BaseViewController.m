@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = RGB(241, 241, 241);
+    self.view.backgroundColor = RGB(236, 236, 236);
     
     [self setNavigation];
 }
@@ -31,7 +31,7 @@
     // 状态栏颜色
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     // 导航栏背景颜色
-    [self.navigationController.navigationBar setBarTintColor:RGB(67, 188, 252)];
+    [self.navigationController.navigationBar setBarTintColor:RGB(39, 152, 227)];
     // 导航栏字体颜色
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
     // 去除黑线
