@@ -29,6 +29,7 @@ static NSBundle *bundle = nil;
         // 获取系统当前语言版本
         NSArray *languagesArray = [[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"];
         languageString = languagesArray.firstObject;
+        MyLog(@"系统默认语言 == %@",languageString);
         [[NSUserDefaults standardUserDefaults] setValue:languageString forKey:@"userLanguage"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
@@ -58,7 +59,7 @@ static NSBundle *bundle = nil;
 
 // 简体中文类型数组
 + (NSArray *)SimplifiedChinese{
-    return @[@"zh-Hans"];
+    return @[@"zh-Hans",@"zh-Hans-CN"];
 }
 
 // 繁体中文类型数组

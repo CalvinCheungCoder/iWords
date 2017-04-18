@@ -10,6 +10,12 @@
 #import "MainTabBar.h"
 #import "BaseViewController.h"
 #import "GuideViewController.h"
+#import <UMSocialCore/UMSocialCore.h>
+
+#define UMengAppKey @"58f091a3f29d9870a900034c"
+#define WeChatAppID @"wx9a570a5189841fb7"
+#define WeChatAppSecret @"90f2683d208e71d1ab37ac06288a8120"
+
 
 @interface AppDelegate ()
 
@@ -24,21 +30,70 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    [self setUMengShare];
     // 初始化语言
     [DHLanguageTool initUserLanguage];
-    
-//    [self chooseRootViewController];
-    
-//    BaseViewController *base = [[BaseViewController alloc]init];
-//    self.window.rootViewController = base;
-    
     // 获取根视图
     [Tools chooseRootViewController];
     // 设置启动页面停留时间
-    [NSThread sleepForTimeInterval:1.0];
+//    [NSThread sleepForTimeInterval:0.8];
     
     return YES;
 }
+
+#pragma mark --
+#pragma mark -- 友盟分享
+- (void)setUMengShare{
+    
+    // 打开调试日志
+    [[UMSocialManager defaultManager] openLog:YES];
+    // 设置友盟appkey
+    [[UMSocialManager defaultManager] setUmSocialAppkey:UMengAppKey];
+    // 获取友盟social版本号
+    //NSLog(@"UMeng social version: %@", [UMSocialGlobal umSocialSDKVersion]);
+    
+    // 设置微信的appKey和appSecret
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:WeChatAppID appSecret:WeChatAppSecret redirectURL:@"http://mobile.umeng.com/social"];
+    
+    //设置分享到QQ互联的appKey和appSecret
+    // U-Share SDK为了兼容大部分平台命名，统一用appKey和appSecret进行参数设置，而QQ平台仅需将appID作为U-Share的appKey参数传进即可。
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:@""  appSecret:@"" redirectURL:@"http://mobile.umeng.com/social"];
+    
+    //设置新浪的appKey和appSecret
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina appKey:@"3921700954"  appSecret:@"04b48b094faeb16683c32669824ebdad" redirectURL:@"http://sns.whalecloud.com/sina2/callback"];
+}
+
+//#define __IPHONE_10_0    100000
+#if __IPHONE_OS_VERSION_MAX_ALLOWED > 100000
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options
+{
+    BOOL result = [[UMSocialManager defaultManager] handleOpenURL:url];
+    if (!result) {
+        // 其他如支付等SDK的回调
+    }
+    return result;
+}
+
+#endif
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    BOOL result = [[UMSocialManager defaultManager] handleOpenURL:url];
+    if (!result) {
+        // 其他如支付等SDK的回调
+    }
+    return result;
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    BOOL result = [[UMSocialManager defaultManager] handleOpenURL:url];
+    if (!result) {
+        // 其他如支付等SDK的回调
+    }
+    return result;
+}
+
 
 #pragma mark --
 #pragma mark -- 选择根视图

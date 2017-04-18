@@ -19,6 +19,15 @@ PODS:
   - SDWebImage/Core (3.8.2)
   - Shimmer (1.0.2)
   - Toast (3.1.0)
+  - UMengUShare/Core (6.4.2):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.2)
+  - UMengUShare/Social/ReducedQQ (6.4.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedSina (6.4.2):
+    - UMengUShare/Core
+  - UMengUShare/Social/ReducedWeChat (6.4.2):
+    - UMengUShare/Core
   - WSProgressHUD (1.1.2):
     - Shimmer
 
@@ -26,6 +35,9 @@ DEPENDENCIES:
   - AFNetworking
   - SDWebImage (~> 3.7)
   - Toast (~> 3.0)
+  - UMengUShare/Social/ReducedQQ
+  - UMengUShare/Social/ReducedSina
+  - UMengUShare/Social/ReducedWeChat
   - WSProgressHUD
 
 SPEC CHECKSUMS:
@@ -33,8 +45,9 @@ SPEC CHECKSUMS:
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
   Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
+  UMengUShare: 740664d1dd5cc2fb2cc3325d61e4b35539aa9c78
   WSProgressHUD: e214ab3dd863115bd69ede25cb3b38e27f78c468
 
-PODFILE CHECKSUM: 054c34f3f9fb301306fbc341498665cd0dbc9d41
+PODFILE CHECKSUM: c1fd3b415ddf91aeb7cb80cbb7f1345328454f19
 
 COCOAPODS: 1.2.0

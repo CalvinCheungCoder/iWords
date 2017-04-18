@@ -169,10 +169,10 @@
     // 1. 取出沙盒中储存的上次使用软件的版本号
     NSString *lastVersion = [[NSUserDefaults standardUserDefaults] objectForKey:Key];
     // 2. 获得现在的版本号
-    NSString *nowVersion = [NSBundle mainBundle].infoDictionary[@"CFBundleShortVersionString"];;
+    NSString *nowVersion = [NSBundle mainBundle].infoDictionary[@"CFBundleShortVersionString"];
     
     // 3. 如果版本号相等 进入主页
-    if ([lastVersion isEqualToString: nowVersion]) {
+    if (lastVersion.length == 0 || [lastVersion isEqualToString: nowVersion]) {
         
         [UIApplication sharedApplication].keyWindow.rootViewController = [[MainTabBar alloc] init];
         // 打开statusbar

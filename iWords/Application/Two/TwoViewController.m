@@ -25,10 +25,19 @@
 
 - (void)createAddBtn
 {
-    UIButton *addBtn = [[UIButton alloc]initWithFrame:CGRectMake(ScreenWidth-70, ScreenHeight-64-49-60, 35, 35)];
-    [addBtn setBackgroundImage:[UIImage imageNamed:@"add_word"] forState:UIControlStateNormal];
-    [addBtn setBackgroundImage:[UIImage imageNamed:@"add_word"] forState:UIControlStateHighlighted];
-    [self.view addSubview:addBtn];
+    
+    UIButton *addbtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 25, 25)];
+    [addbtn setImage:[UIImage imageNamed:@"add_word"] forState:UIControlStateNormal];
+    [addbtn setImage:[UIImage imageNamed:@"add_word"] forState:UIControlStateHighlighted];
+    [addbtn addTarget:self action:@selector(addBtnEvent) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *rightCunstomButtonView = [[UIBarButtonItem alloc] initWithCustomView:addbtn];
+    self.navigationItem.rightBarButtonItem = rightCunstomButtonView;
+}
+
+- (void)addBtnEvent
+{
+    
 }
 
 - (void)didReceiveMemoryWarning {

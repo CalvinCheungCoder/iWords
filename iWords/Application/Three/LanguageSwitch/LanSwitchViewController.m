@@ -64,7 +64,7 @@
     cell.titleLabel.text = arr[indexPath.section];
     
     NSString *lan = [Tools returnValueforKey:@"userLanguage"];
-    NSString *jian = [lan isEqualToString:@"zh-Hans"] ? @"centercheck" : @"";
+    NSString *jian = ([lan isEqualToString:@"zh-Hans"] || [lan isEqualToString:@"zh-Hans-CN"]) ? @"centercheck" : @"";
     NSString *fan = [lan isEqualToString:@"zh-Hant"] ? @"centercheck" : @"";
     NSString *eng = [lan isEqualToString:@"en"] ? @"centercheck" : @"";
     NSArray *imgArr = @[jian,fan,eng];
