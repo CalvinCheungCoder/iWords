@@ -12,8 +12,15 @@
 		3E2AF4891E9F9A7800EE6C72 /* center_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AF4881E9F9A7800EE6C72 /* center_8.png */; };
 		3E2AF4901E9FA46100EE6C72 /* share_wechat.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AF48E1E9FA46100EE6C72 /* share_wechat.png */; };
 		3E2AF4911E9FA46100EE6C72 /* share_wechatLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AF48F1E9FA46100EE6C72 /* share_wechatLine.png */; };
-		3E2AF4C11EA09E9700EE6C72 /* add_word.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AF4C01EA09E9700EE6C72 /* add_word.png */; };
 		3E2AF4C31EA0D37700EE6C72 /* iwords_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2AF4C21EA0D37700EE6C72 /* iwords_icon.png */; };
+		3E6098471EB0405100739B8C /* add_word@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6098461EB0405100739B8C /* add_word@2x.png */; };
+		3E60984F1EB0422C00739B8C /* addWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E60984E1EB0422C00739B8C /* addWordViewController.m */; };
+		3E6098511EB0446A00739B8C /* home_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6098501EB0446A00739B8C /* home_search@2x.png */; };
+		3E6098591EB0461E00739B8C /* DHPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6098541EB0461E00739B8C /* DHPopupMenu.m */; };
+		3E60985A1EB0461E00739B8C /* DHPopupMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6098561EB0461E00739B8C /* DHPopupMenuCell.m */; };
+		3E60985B1EB0461E00739B8C /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6098581EB0461E00739B8C /* UIView+Addition.m */; };
+		3E60985D1EB04A4000739B8C /* Comic Sans MS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E60985C1EB049BA00739B8C /* Comic Sans MS.ttf */; };
+		3E6098611EB04F2E00739B8C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6098601EB04F2E00739B8C /* SearchViewController.m */; };
 		3E772F0E1E9E22E900E52329 /* CenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E772F0D1E9E22E900E52329 /* CenterCell.m */; };
 		3E772F171E9E2D4800E52329 /* center_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F101E9E2D4800E52329 /* center_1.png */; };
 		3E772F191E9E2D4800E52329 /* center_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F121E9E2D4800E52329 /* center_3.png */; };
@@ -71,8 +78,20 @@
 		3E2AF4881E9F9A7800EE6C72 /* center_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center_8.png; sourceTree = "<group>"; };
 		3E2AF48E1E9FA46100EE6C72 /* share_wechat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_wechat.png; sourceTree = "<group>"; };
 		3E2AF48F1E9FA46100EE6C72 /* share_wechatLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_wechatLine.png; sourceTree = "<group>"; };
-		3E2AF4C01EA09E9700EE6C72 /* add_word.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_word.png; sourceTree = "<group>"; };
 		3E2AF4C21EA0D37700EE6C72 /* iwords_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iwords_icon.png; sourceTree = "<group>"; };
+		3E6098461EB0405100739B8C /* add_word@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_word@2x.png"; sourceTree = "<group>"; };
+		3E60984D1EB0422C00739B8C /* addWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addWordViewController.h; sourceTree = "<group>"; };
+		3E60984E1EB0422C00739B8C /* addWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addWordViewController.m; sourceTree = "<group>"; };
+		3E6098501EB0446A00739B8C /* home_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_search@2x.png"; sourceTree = "<group>"; };
+		3E6098531EB0461E00739B8C /* DHPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHPopupMenu.h; sourceTree = "<group>"; };
+		3E6098541EB0461E00739B8C /* DHPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHPopupMenu.m; sourceTree = "<group>"; };
+		3E6098551EB0461E00739B8C /* DHPopupMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHPopupMenuCell.h; sourceTree = "<group>"; };
+		3E6098561EB0461E00739B8C /* DHPopupMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHPopupMenuCell.m; sourceTree = "<group>"; };
+		3E6098571EB0461E00739B8C /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		3E6098581EB0461E00739B8C /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		3E60985C1EB049BA00739B8C /* Comic Sans MS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comic Sans MS.ttf"; sourceTree = "<group>"; };
+		3E60985F1EB04F2E00739B8C /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		3E6098601EB04F2E00739B8C /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		3E772F0C1E9E22E900E52329 /* CenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterCell.h; sourceTree = "<group>"; };
 		3E772F0D1E9E22E900E52329 /* CenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterCell.m; sourceTree = "<group>"; };
 		3E772F101E9E2D4800E52329 /* center_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center_1.png; sourceTree = "<group>"; };
@@ -191,9 +210,40 @@
 		3E2AF4921E9FA6B100EE6C72 /* word */ = {
 			isa = PBXGroup;
 			children = (
-				3E2AF4C01EA09E9700EE6C72 /* add_word.png */,
+				3E6098461EB0405100739B8C /* add_word@2x.png */,
 			);
 			path = word;
+			sourceTree = "<group>";
+		};
+		3E60984C1EB0422100739B8C /* addWordView */ = {
+			isa = PBXGroup;
+			children = (
+				3E60984D1EB0422C00739B8C /* addWordViewController.h */,
+				3E60984E1EB0422C00739B8C /* addWordViewController.m */,
+			);
+			path = addWordView;
+			sourceTree = "<group>";
+		};
+		3E6098521EB0461E00739B8C /* DHPopupMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3E6098531EB0461E00739B8C /* DHPopupMenu.h */,
+				3E6098541EB0461E00739B8C /* DHPopupMenu.m */,
+				3E6098551EB0461E00739B8C /* DHPopupMenuCell.h */,
+				3E6098561EB0461E00739B8C /* DHPopupMenuCell.m */,
+				3E6098571EB0461E00739B8C /* UIView+Addition.h */,
+				3E6098581EB0461E00739B8C /* UIView+Addition.m */,
+			);
+			path = DHPopupMenu;
+			sourceTree = "<group>";
+		};
+		3E60985E1EB04F2500739B8C /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				3E60985F1EB04F2E00739B8C /* SearchViewController.h */,
+				3E6098601EB04F2E00739B8C /* SearchViewController.m */,
+			);
+			path = SearchView;
 			sourceTree = "<group>";
 		};
 		3E772EEB1E9E08D200E52329 /* tabbar */ = {
@@ -346,6 +396,7 @@
 		3ECCCB911E9DC77D00347C6D /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				3E6098521EB0461E00739B8C /* DHPopupMenu */,
 				3ECCCBBF1E9DCA6F00347C6D /* CustomNavigation */,
 				3ECCCB9D1E9DC86900347C6D /* Helper */,
 			);
@@ -368,6 +419,8 @@
 		3ECCCB931E9DC77D00347C6D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3E60985C1EB049BA00739B8C /* Comic Sans MS.ttf */,
+				3E6098501EB0446A00739B8C /* home_search@2x.png */,
 				3E2AF4C21EA0D37700EE6C72 /* iwords_icon.png */,
 				3E2AF47E1E9F983800EE6C72 /* aboutMe.html */,
 				3E772F361E9E327200E52329 /* service_terms_chs.html */,
@@ -407,6 +460,7 @@
 		3ECCCBB01E9DC9B300347C6D /* One */ = {
 			isa = PBXGroup;
 			children = (
+				3E60985E1EB04F2500739B8C /* SearchView */,
 				3ECCCBB61E9DC9C500347C6D /* OneViewController.h */,
 				3ECCCBB71E9DC9C500347C6D /* OneViewController.m */,
 			);
@@ -433,6 +487,7 @@
 		3ECCCBB21E9DC9B300347C6D /* Two */ = {
 			isa = PBXGroup;
 			children = (
+				3E60984C1EB0422100739B8C /* addWordView */,
 				3ECCCBBC1E9DC9D100347C6D /* TwoViewController.h */,
 				3ECCCBBD1E9DC9D100347C6D /* TwoViewController.m */,
 			);
@@ -543,6 +598,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E60985D1EB04A4000739B8C /* Comic Sans MS.ttf in Resources */,
 				3EE55C041E9F1BA500CD2599 /* DHLocalizable.strings in Resources */,
 				3E772F421E9E363800E52329 /* search@2x.png in Resources */,
 				3E772F1F1E9E2E3800E52329 /* center_2.png in Resources */,
@@ -552,7 +608,6 @@
 				3E772F1B1E9E2D4800E52329 /* center_5.png in Resources */,
 				3E772F431E9E363800E52329 /* searchSele@2x.png in Resources */,
 				3E772F1A1E9E2D4800E52329 /* center_4.png in Resources */,
-				3E2AF4C11EA09E9700EE6C72 /* add_word.png in Resources */,
 				3EA0B4841EA1CF8A00EB28B4 /* tabBar_bg@3x.png in Resources */,
 				3E2AF4901E9FA46100EE6C72 /* share_wechat.png in Resources */,
 				3EE55BF31E9F0C8B00CD2599 /* InfoPlist.strings in Resources */,
@@ -560,11 +615,13 @@
 				3EE55C0A1E9F2E2600CD2599 /* centercheck.png in Resources */,
 				3E772F371E9E327200E52329 /* service_terms_chs.html in Resources */,
 				3E2AF4C31EA0D37700EE6C72 /* iwords_icon.png in Resources */,
+				3E6098471EB0405100739B8C /* add_word@2x.png in Resources */,
 				3E772F171E9E2D4800E52329 /* center_1.png in Resources */,
 				3ECCCB851E9DC69200347C6D /* Assets.xcassets in Resources */,
 				3E772F3E1E9E363800E52329 /* my@2x.png in Resources */,
 				3E772F191E9E2D4800E52329 /* center_3.png in Resources */,
 				3E2AF47F1E9F983800EE6C72 /* aboutMe.html in Resources */,
+				3E6098511EB0446A00739B8C /* home_search@2x.png in Resources */,
 				3E772F3F1E9E363800E52329 /* mySele@2x.png in Resources */,
 				3E2AF4891E9F9A7800EE6C72 /* center_8.png in Resources */,
 				3E772F1C1E9E2D4800E52329 /* center_6.png in Resources */,
@@ -634,9 +691,13 @@
 				3ECCCBBB1E9DC9CB00347C6D /* ThreeViewController.m in Sources */,
 				3ECCCB961E9DC7D800347C6D /* BaseViewController.m in Sources */,
 				3ECCCBB81E9DC9C500347C6D /* OneViewController.m in Sources */,
+				3E6098591EB0461E00739B8C /* DHPopupMenu.m in Sources */,
+				3E60985A1EB0461E00739B8C /* DHPopupMenuCell.m in Sources */,
 				3ECCCB9C1E9DC80400347C6D /* MainTabBar.m in Sources */,
 				3E772F301E9E310200E52329 /* LanSwitchViewController.m in Sources */,
+				3E60984F1EB0422C00739B8C /* addWordViewController.m in Sources */,
 				3E772F2D1E9E30F500E52329 /* JoinGroupViewController.m in Sources */,
+				3E6098611EB04F2E00739B8C /* SearchViewController.m in Sources */,
 				3ECCCBC51E9DCA7D00347C6D /* UIViewController+CustomNavigationExtension.m in Sources */,
 				3E772F231E9E2FD100E52329 /* InviteViewController.m in Sources */,
 				3ECCCB991E9DC7EF00347C6D /* GuideViewController.m in Sources */,
@@ -652,6 +713,7 @@
 				3ECCCBAB1E9DC86900347C6D /* UIColor+FlatColors.m in Sources */,
 				3ECCCBCD1E9DCDCE00347C6D /* SFHFKeychainUtils.m in Sources */,
 				3ECCCB7A1E9DC69200347C6D /* main.m in Sources */,
+				3E60985B1EB0461E00739B8C /* UIView+Addition.m in Sources */,
 				3ECCCBB51E9DC9BE00347C6D /* FourViewController.m in Sources */,
 				3EE55C0D1E9F2E3A00CD2599 /* LanSwitchCell.m in Sources */,
 				3ECCCBA91E9DC86900347C6D /* Factory.m in Sources */,

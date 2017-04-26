@@ -7,6 +7,7 @@
 //
 
 #import "OneViewController.h"
+#import "SearchViewController.h"
 
 @interface OneViewController ()
 
@@ -19,21 +20,25 @@
     // Do any additional setup after loading the view.
     
     self.title = @"查词";
+    [self createAddSearchBtn];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)createAddSearchBtn
+{
+    
+    UIButton *searchbtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+    [searchbtn setImage:[UIImage imageNamed:@"home_search@2x"] forState:UIControlStateNormal];
+    [searchbtn setImage:[UIImage imageNamed:@"home_search@2x"] forState:UIControlStateHighlighted];
+    [searchbtn addTarget:self action:@selector(searchbtnEvent) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIBarButtonItem *rightCunstomButtonView = [[UIBarButtonItem alloc] initWithCustomView:searchbtn];
+    self.navigationItem.rightBarButtonItem = rightCunstomButtonView;
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)searchbtnEvent
+{
+    SearchViewController *search = [[SearchViewController alloc]init];
+    [self presentViewController:search animated:YES completion:nil];
 }
-*/
 
 @end

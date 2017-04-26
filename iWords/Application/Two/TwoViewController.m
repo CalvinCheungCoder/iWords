@@ -7,6 +7,7 @@
 //
 
 #import "TwoViewController.h"
+#import "addWordViewController.h"
 
 @interface TwoViewController ()
 
@@ -26,7 +27,7 @@
 - (void)createAddBtn
 {
     
-    UIButton *addbtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 25, 25)];
+    UIButton *addbtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     [addbtn setImage:[UIImage imageNamed:@"add_word"] forState:UIControlStateNormal];
     [addbtn setImage:[UIImage imageNamed:@"add_word"] forState:UIControlStateHighlighted];
     [addbtn addTarget:self action:@selector(addBtnEvent) forControlEvents:UIControlEventTouchUpInside];
@@ -37,7 +38,9 @@
 
 - (void)addBtnEvent
 {
-    
+    addWordViewController *addword = [[addWordViewController alloc]init];
+    addword.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:addword animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
