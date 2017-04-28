@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - PYSearch (0.7.6)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -33,6 +34,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - PYSearch
   - SDWebImage (~> 3.7)
   - Toast (~> 3.0)
   - UMengUShare/Social/ReducedQQ
@@ -42,12 +44,13 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  PYSearch: a285b588e766504e7d54006c2014018b8c4d2705
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
   Toast: 14a93686d6c8bfe2727afd342414e35660a8a1f3
   UMengUShare: 740664d1dd5cc2fb2cc3325d61e4b35539aa9c78
   WSProgressHUD: e214ab3dd863115bd69ede25cb3b38e27f78c468
 
-PODFILE CHECKSUM: c1fd3b415ddf91aeb7cb80cbb7f1345328454f19
+PODFILE CHECKSUM: 2fdd2aed7ebb05790ce6cb4ec53675db4885c8bc
 
 COCOAPODS: 1.2.0

@@ -11,6 +11,7 @@ pod 'Toast', '~> 3.0'        #吐司
 pod 'WSProgressHUD'          #弹框
 pod 'SDWebImage', '~>3.7'    #图片加载
 pod ‘AFNetworking’
+pod ‘PYSearch’
 
 # 集成微信(精简版0.2M)
 pod ‘UMengUShare/Social/ReducedWeChat'

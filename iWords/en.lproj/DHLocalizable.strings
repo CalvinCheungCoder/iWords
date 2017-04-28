@@ -7,7 +7,7 @@
 */
 
 
-
+"查词" = "Search Word";
 "查单词" = "Search";
 "记单词" = "Write";
 "我" = "Me";
@@ -22,3 +22,4 @@
 "语言切换成功" = "Successful language switch";
 "关于我" = "About Me";
 "添加单词" = "Add Word";
+"搜索单词" = "Search Word";

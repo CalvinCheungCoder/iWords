@@ -38,10 +38,12 @@
 		3E772F371E9E327200E52329 /* service_terms_chs.html in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F361E9E327200E52329 /* service_terms_chs.html */; };
 		3E772F3E1E9E363800E52329 /* my@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F381E9E363800E52329 /* my@2x.png */; };
 		3E772F3F1E9E363800E52329 /* mySele@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F391E9E363800E52329 /* mySele@2x.png */; };
-		3E772F401E9E363800E52329 /* record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F3A1E9E363800E52329 /* record@2x.png */; };
-		3E772F411E9E363800E52329 /* recordSele@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F3B1E9E363800E52329 /* recordSele@2x.png */; };
 		3E772F421E9E363800E52329 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F3C1E9E363800E52329 /* search@2x.png */; };
 		3E772F431E9E363800E52329 /* searchSele@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E772F3D1E9E363800E52329 /* searchSele@2x.png */; };
+		3E84C3F31EB2F3D200A8E0E9 /* NSData+AES128.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84C3F21EB2F3D200A8E0E9 /* NSData+AES128.m */; };
+		3E84C3F61EB3231900A8E0E9 /* record@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E84C3F41EB3231900A8E0E9 /* record@2x.png */; };
+		3E84C3F71EB3231900A8E0E9 /* recordSele@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E84C3F51EB3231900A8E0E9 /* recordSele@2x.png */; };
+		3E84C3FC1EB3265F00A8E0E9 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E84C3FB1EB3265F00A8E0E9 /* NetManager.m */; };
 		3EA0B4831EA1CF8A00EB28B4 /* tabBar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA0B4811EA1CF8A00EB28B4 /* tabBar_bg@2x.png */; };
 		3EA0B4841EA1CF8A00EB28B4 /* tabBar_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA0B4821EA1CF8A00EB28B4 /* tabBar_bg@3x.png */; };
 		3ECCCB7A1E9DC69200347C6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECCCB791E9DC69200347C6D /* main.m */; };
@@ -115,10 +117,15 @@
 		3E772F361E9E327200E52329 /* service_terms_chs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = service_terms_chs.html; sourceTree = "<group>"; };
 		3E772F381E9E363800E52329 /* my@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "my@2x.png"; sourceTree = "<group>"; };
 		3E772F391E9E363800E52329 /* mySele@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mySele@2x.png"; sourceTree = "<group>"; };
-		3E772F3A1E9E363800E52329 /* record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record@2x.png"; sourceTree = "<group>"; };
-		3E772F3B1E9E363800E52329 /* recordSele@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recordSele@2x.png"; sourceTree = "<group>"; };
 		3E772F3C1E9E363800E52329 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
 		3E772F3D1E9E363800E52329 /* searchSele@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "searchSele@2x.png"; sourceTree = "<group>"; };
+		3E84C3F11EB2F3D200A8E0E9 /* NSData+AES128.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES128.h"; sourceTree = "<group>"; };
+		3E84C3F21EB2F3D200A8E0E9 /* NSData+AES128.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES128.m"; sourceTree = "<group>"; };
+		3E84C3F41EB3231900A8E0E9 /* record@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record@2x.png"; sourceTree = "<group>"; };
+		3E84C3F51EB3231900A8E0E9 /* recordSele@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recordSele@2x.png"; sourceTree = "<group>"; };
+		3E84C3F81EB3246800A8E0E9 /* Net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Net.h; sourceTree = "<group>"; };
+		3E84C3FA1EB3265F00A8E0E9 /* NetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		3E84C3FB1EB3265F00A8E0E9 /* NetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
 		3EA0B4811EA1CF8A00EB28B4 /* tabBar_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_bg@2x.png"; sourceTree = "<group>"; };
 		3EA0B4821EA1CF8A00EB28B4 /* tabBar_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_bg@3x.png"; sourceTree = "<group>"; };
 		3ECCCB751E9DC69200347C6D /* iWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -253,8 +260,8 @@
 				3EA0B4821EA1CF8A00EB28B4 /* tabBar_bg@3x.png */,
 				3E772F381E9E363800E52329 /* my@2x.png */,
 				3E772F391E9E363800E52329 /* mySele@2x.png */,
-				3E772F3A1E9E363800E52329 /* record@2x.png */,
-				3E772F3B1E9E363800E52329 /* recordSele@2x.png */,
+				3E84C3F41EB3231900A8E0E9 /* record@2x.png */,
+				3E84C3F51EB3231900A8E0E9 /* recordSele@2x.png */,
 				3E772F3C1E9E363800E52329 /* search@2x.png */,
 				3E772F3D1E9E363800E52329 /* searchSele@2x.png */,
 			);
@@ -326,6 +333,24 @@
 			path = UserAgreement;
 			sourceTree = "<group>";
 		};
+		3E84C3F01EB2F3D200A8E0E9 /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				3E84C3F11EB2F3D200A8E0E9 /* NSData+AES128.h */,
+				3E84C3F21EB2F3D200A8E0E9 /* NSData+AES128.m */,
+			);
+			path = AES;
+			sourceTree = "<group>";
+		};
+		3E84C3F91EB3260800A8E0E9 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				3E84C3FA1EB3265F00A8E0E9 /* NetManager.h */,
+				3E84C3FB1EB3265F00A8E0E9 /* NetManager.m */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
 		3ECCCB6C1E9DC69200347C6D = {
 			isa = PBXGroup;
 			children = (
@@ -354,6 +379,7 @@
 				3ECCCB931E9DC77D00347C6D /* Resource */,
 				3ECCCB7B1E9DC69200347C6D /* AppDelegate.h */,
 				3ECCCB7C1E9DC69200347C6D /* AppDelegate.m */,
+				3E84C3F81EB3246800A8E0E9 /* Net.h */,
 				3ECCCBAE1E9DC89300347C6D /* MyPrefixHeader.pch */,
 				3ECCCB841E9DC69200347C6D /* Assets.xcassets */,
 				3ECCCB861E9DC69200347C6D /* LaunchScreen.storyboard */,
@@ -387,6 +413,7 @@
 		3ECCCB901E9DC77D00347C6D /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				3E84C3F91EB3260800A8E0E9 /* NetManager */,
 				3ECCCBCA1E9DCDCE00347C6D /* SFHFKeychainUtils */,
 				3ECCCBC61E9DCBD800347C6D /* Tool */,
 			);
@@ -396,6 +423,7 @@
 		3ECCCB911E9DC77D00347C6D /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				3E84C3F01EB2F3D200A8E0E9 /* AES */,
 				3E6098521EB0461E00739B8C /* DHPopupMenu */,
 				3ECCCBBF1E9DCA6F00347C6D /* CustomNavigation */,
 				3ECCCB9D1E9DC86900347C6D /* Helper */,
@@ -612,6 +640,7 @@
 				3E2AF4901E9FA46100EE6C72 /* share_wechat.png in Resources */,
 				3EE55BF31E9F0C8B00CD2599 /* InfoPlist.strings in Resources */,
 				3EA0B4831EA1CF8A00EB28B4 /* tabBar_bg@2x.png in Resources */,
+				3E84C3F71EB3231900A8E0E9 /* recordSele@2x.png in Resources */,
 				3EE55C0A1E9F2E2600CD2599 /* centercheck.png in Resources */,
 				3E772F371E9E327200E52329 /* service_terms_chs.html in Resources */,
 				3E2AF4C31EA0D37700EE6C72 /* iwords_icon.png in Resources */,
@@ -625,9 +654,8 @@
 				3E772F3F1E9E363800E52329 /* mySele@2x.png in Resources */,
 				3E2AF4891E9F9A7800EE6C72 /* center_8.png in Resources */,
 				3E772F1C1E9E2D4800E52329 /* center_6.png in Resources */,
+				3E84C3F61EB3231900A8E0E9 /* record@2x.png in Resources */,
 				3E772F351E9E326C00E52329 /* whiteBack@2x.png in Resources */,
-				3E772F401E9E363800E52329 /* record@2x.png in Resources */,
-				3E772F411E9E363800E52329 /* recordSele@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -690,6 +718,7 @@
 				3ECCCBC41E9DCA7D00347C6D /* CustomNavigationController.m in Sources */,
 				3ECCCBBB1E9DC9CB00347C6D /* ThreeViewController.m in Sources */,
 				3ECCCB961E9DC7D800347C6D /* BaseViewController.m in Sources */,
+				3E84C3F31EB2F3D200A8E0E9 /* NSData+AES128.m in Sources */,
 				3ECCCBB81E9DC9C500347C6D /* OneViewController.m in Sources */,
 				3E6098591EB0461E00739B8C /* DHPopupMenu.m in Sources */,
 				3E60985A1EB0461E00739B8C /* DHPopupMenuCell.m in Sources */,
@@ -701,6 +730,7 @@
 				3ECCCBC51E9DCA7D00347C6D /* UIViewController+CustomNavigationExtension.m in Sources */,
 				3E772F231E9E2FD100E52329 /* InviteViewController.m in Sources */,
 				3ECCCB991E9DC7EF00347C6D /* GuideViewController.m in Sources */,
+				3E84C3FC1EB3265F00A8E0E9 /* NetManager.m in Sources */,
 				3ECCCBBE1E9DC9D100347C6D /* TwoViewController.m in Sources */,
 				3E2AF4831E9F986E00EE6C72 /* AboutMeViewController.m in Sources */,
 				3E772F2A1E9E30EB00E52329 /* HelpCenterViewController.m in Sources */,

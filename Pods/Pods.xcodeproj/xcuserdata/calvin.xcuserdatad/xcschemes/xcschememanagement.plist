@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PYSearch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-iWords.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,17 +42,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>015944E98670BC8AF8E0FC30CB4D555E</key>
+		<key>0AF17A48D0B1C293D288ADF04A1E68CC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0EC5BE19126AB136D37F66A9F08CEA57</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>61AA33180DB9BC73B523BF1FB81C5D57</key>
+		<key>2D4A1477F9B6AF631AFA6EDD6471A7DE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,12 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A03D5A0B12FCE970F57B0C481389592D</key>
+		<key>ACC2FBCFBB9DA0627E4679CD33E67755</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EA8EF8C1D96AA3B457E9FC4C6E54B972</key>
+		<key>B002446E0894F5A6B8E046141B3F7FFF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B261BE864CF8918AEFF8249F1BDD3E65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0A6319A08832948662C7B086C45A6BB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -77,10 +77,12 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "PYSearch/PYSearch/PYSearch.bundle"
   install_resource "UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle"
   install_resource "WSProgressHUD/WSProgressHUD/WSProgressBundle.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "PYSearch/PYSearch/PYSearch.bundle"
   install_resource "UMengUShare/UShareSDK/UMSocialSDK/UMSocialSDKPromptResources.bundle"
   install_resource "WSProgressHUD/WSProgressHUD/WSProgressBundle.bundle"
 fi

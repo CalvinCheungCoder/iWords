@@ -11,6 +11,7 @@
 #import "BaseViewController.h"
 #import "GuideViewController.h"
 #import <UMSocialCore/UMSocialCore.h>
+#import "NSData+AES128.h"
 
 #define UMengAppKey @"58f091a3f29d9870a900034c"
 #define WeChatAppID @"wx9a570a5189841fb7"
@@ -30,15 +31,23 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
+    // 加密
+    [self GoEncryption];
+    
     [self setUMengShare];
     // 初始化语言
     [DHLanguageTool initUserLanguage];
     // 获取根视图
     [Tools chooseRootViewController];
-    // 设置启动页面停留时间
-//    [NSThread sleepForTimeInterval:0.8];
     
     return YES;
+}
+
+#pragma mark --
+#pragma mark -- 加密
+- (void)GoEncryption
+{
+    
 }
 
 #pragma mark --

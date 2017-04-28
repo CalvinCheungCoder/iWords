@@ -23,6 +23,7 @@
 // 工具类
 #import "Tools.h"
 #import "DHLanguageTool.h"
-
+#import "Net.h"
+#import "NetManager.h"
 
 #endif /* MyPrefixHeader_pch */

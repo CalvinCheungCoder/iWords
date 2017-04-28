@@ -127,7 +127,7 @@
     NSUserDefaults * defs = [NSUserDefaults standardUserDefaults];
     NSDictionary * dict = [defs dictionaryRepresentation];
     for (id key in dict) {
-        MyLog(@"userDefault 存储信息 -- %@ : %@",key,[Tools returnValueforKey:key]);
+//        MyLog(@"userDefault 存储信息 -- %@ : %@",key,[Tools returnValueforKey:key]);
     }
     [defs synchronize];
 }

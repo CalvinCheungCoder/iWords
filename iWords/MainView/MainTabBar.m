@@ -79,9 +79,29 @@
     [[UITabBar appearance]setBackgroundColor:[UIColor whiteColor]];
     [[UITabBar appearance]setBarTintColor:[UIColor whiteColor]];
     
+    // tabbar加阴影
+    [self dropShadowWithOffset:CGSizeMake(0, -1) radius:1 color:[UIColor lightGrayColor] opacity:0.3];
+    
     // self.navigationController.navigationBar 这个的话会有一个专题改不了，所以这用最高权限
     // 获取导航条最高权限
 //    [[UINavigationBar appearance] setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:20]}];
+}
+
+// tabbar加阴影
+- (void)dropShadowWithOffset:(CGSize)offset radius:(CGFloat)radius color:(UIColor *)color opacity:(CGFloat)opacity
+{
+    CGMutablePathRef path = CGPathCreateMutable();
+    CGPathAddRect(path, NULL, self.tabBar.bounds);
+    self.tabBar.layer.shadowPath = path;
+    CGPathCloseSubpath(path);
+    CGPathRelease(path);
+    
+    self.tabBar.layer.shadowColor = color.CGColor;
+    self.tabBar.layer.shadowOffset = offset;
+    self.tabBar.layer.shadowRadius = radius;
+    self.tabBar.layer.shadowOpacity = opacity;
+    
+    self.tabBar.clipsToBounds = NO;
 }
 
 #pragma mark - Override
